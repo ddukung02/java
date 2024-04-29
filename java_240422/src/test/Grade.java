@@ -6,6 +6,7 @@ public class Grade {
 	static double english;
 	static double math;
 	static double average;
+	
     public Grade(String name,double a, double b, double c) {
     	String student = name;
     	double korean = a;
