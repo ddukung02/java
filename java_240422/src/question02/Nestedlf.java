@@ -14,13 +14,20 @@ public class Nestedlf {
 		if(grade<1||grade>4) {
 			System.out.println("학년을 바르게 입력하시오");
 		}
-		else {
+		else if(grade==4){
+			if(score>=70) {
+				System.out.println("합격입니다");
+			}
+			else {
+				System.out.println("불합격");
+			}
+		}else {
 			if(score>=60) {
 				System.out.println("합격입니다");
 			}
 			else {
 				System.out.println("불합격");
 			}
-		}
 	}
+}
 }
