@@ -23,12 +23,5 @@ private String name,sex;
 	return sex;
 	}
 	
-	void setter(){
-		
-	}
-	
-	void getter() {
-		
-	}
 }
 
