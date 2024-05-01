@@ -49,7 +49,7 @@ public class EmergencyMoney {
 				System.out.println("100달라" + dollar100 + "\t" + "10달라" + dollar10);
 			}
 		}
-		if (famNumber == 4) {
+		if (famNumber >= 4) {
 			dollar100 = d_dollar / 100;
 			dollar10 = d_dollar % 100 / 10;
 			if (dollar10 < 1) {
