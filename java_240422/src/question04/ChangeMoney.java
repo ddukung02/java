@@ -1,4 +1,4 @@
-package question3;
+package question04;
 
 import java.util.Scanner;
 
@@ -18,9 +18,10 @@ public class ChangeMoney {
 		int money1=0;
 		
 		System.out.println("금액을 입력해라");
+		
 		money = scanner.nextInt();
 		
-		if(money>=50000) {
+		
 			while(money>=50000) {
 				money50000++;
 				money-=50000;
@@ -57,7 +58,11 @@ public class ChangeMoney {
 				money10++;
 				money-=10;
 			}
-		}
+			while(money>0) {
+				money1++;
+				money--;
+			}
+		
 		System.out.println("오만원짜리는"+money50000+"장");
 		System.out.println("만원짜리는"+money10000+"장");
 		System.out.println("오천원짜리는"+money5000+"장");
@@ -66,5 +71,6 @@ public class ChangeMoney {
 		System.out.println("백원짜리는"+money100+"장");
 		System.out.println("오십원짜리는"+money50+"장");
 		System.out.println("십원짜리는"+money10+"장");
+		System.out.println("일원짜리는"+money1+"장");
 	}
 }
