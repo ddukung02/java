@@ -12,7 +12,7 @@ public class Test240503_4 {
 	        try {
 	            int number = readNumber();
 	            System.out.printf("%d에 2를 곱하면 %d 입니다.", number, number * 2);
-	        } catch (IllegalArgumentException e) {
+	        } catch (Exception e) {
 	            System.out.println(e.getMessage());
 	            multiple();
 	        }
